@@ -7,7 +7,8 @@
 * 上传资源图片
 * 成员加入与退出消息
 * 通过表情反应添加身份组
-** 有需要的可以自己修改源码构建 **
+
+有需要的可以自己修改源码构建
 ### 一些示例图片（上传资源图片的，因为只有这个我弄了GUI）
 [![vBcY5Q.png](https://s1.ax1x.com/2022/08/17/vBcY5Q.png)](https://imgtu.com/i/vBcY5Q)
 [![vBcNCj.png](https://s1.ax1x.com/2022/08/17/vBcNCj.png)](https://imgtu.com/i/vBcNCj)

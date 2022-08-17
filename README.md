@@ -26,7 +26,7 @@
 * 支持自定义消息格式
 * 采用配置文件，更加容易上手
 ### 脏话屏蔽及禁言
-* 拥有专门的脏话词库（[链接](hhttps://mcchampions.github.io/database.json)）
+* 拥有专门的脏话词库（[链接](https://mcchampions.github.io/database.json)）
 * 可撤回原消息
 * 可禁言发送者
 ### 加群及退群提示

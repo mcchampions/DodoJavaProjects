@@ -1,4 +1,4 @@
-# DodoProject
+# DodoProjects
  基于Dodo开放平台与自己制作的DodoOpenJava制作的一些项目
 ### 项目列表
 Dodo消息与Minecraft消息互通（分为两个，一个支持bukkit系服务端，一个支持bungeecord系）

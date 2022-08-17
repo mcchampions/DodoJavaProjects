@@ -1,0 +1,6 @@
+name: DodoChat
+version: '${project.version}'
+main: me.qscbm.DodoChat.DodoChat
+description: A plugin
+api-version: 1.16
+authors: [ qscbm187531 ]

@@ -1,0 +1,4 @@
+name: DodoChat
+version: '${project.version}'
+main: me.qscbm.DodoChat.DodoChat
+description: A plugin

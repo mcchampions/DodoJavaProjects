@@ -12,3 +12,24 @@ Dodo消息与Minecraft消息互通（分为两个，一个支持bukkit系服务�
 [![vBcNCj.png](https://s1.ax1x.com/2022/08/17/vBcNCj.png)](https://imgtu.com/i/vBcNCj)
 [![vBcJUg.png](https://s1.ax1x.com/2022/08/17/vBcJUg.png)](https://imgtu.com/i/vBcJUg)
 [![vBcU8s.png](https://s1.ax1x.com/2022/08/17/vBcU8s.png)](https://imgtu.com/i/vBcU8s)
+### Dodo消息与Minecraft消息互通BC版
+* 支持两端消息互相转发
+* 支持MC端玩家切换服务器时发送提示消息到Dodo
+* 支持MC端玩家加入以及离开时发送提示消息到Dodo
+* 支持自定义消息格式
+* 采用配置文件，更加容易上手
+### Dodo消息与Minecraft消息互通普通版
+* 支持两端消息互相转发
+* 支持MC端玩家加入以及离开时发送提示消息到Dodo
+* 支持自定义消息格式
+* 采用配置文件，更加容易上手
+### 脏话屏蔽及禁言
+* 拥有专门的脏话词库（[链接](hhttps://mcchampions.github.io/database.json)）
+* 可撤回原消息
+* 可禁言发送者
+### 加群及退群提示
+* 用户进群时，发送指定消息到指定频道
+* 用户退群时，发送指定消息到指定频道
+###上传资源图片
+* 可视化操作
+* 支持JPG、JPEG、GIF、PNG、WEBP

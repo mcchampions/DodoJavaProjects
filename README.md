@@ -8,7 +8,7 @@ Dodo消息与Minecraft消息互通（分为两个，一个支持bukkit系服务�
 * 通过表情反应添加身份组
 * 有需要的可以自己修改源码构建
 ### 一些示例图片（上传资源图片的，因为只有这个我弄了GUI）
-[![](https://imgtu.com/i/vBcY50)]()
-[![](https://imgtu.com/i/vBcNCj)]()
-[![](https://imgtu.com/i/vBcJUg)]()
-[![](https://imgtu.com/i/vBcU8s)]()
+[![vBcY5Q.png](https://s1.ax1x.com/2022/08/17/vBcY5Q.png)](https://imgtu.com/i/vBcY5Q)
+[![vBcNCj.png](https://s1.ax1x.com/2022/08/17/vBcNCj.png)](https://imgtu.com/i/vBcNCj)
+[![vBcJUg.png](https://s1.ax1x.com/2022/08/17/vBcJUg.png)](https://imgtu.com/i/vBcJUg)
+[![vBcU8s.png](https://s1.ax1x.com/2022/08/17/vBcU8s.png)](https://imgtu.com/i/vBcU8s)

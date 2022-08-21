@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.github.mcchampions</groupId>
             <artifactId>DodoOpenJava</artifactId>
-            <version>v4.1</version>
+            <version>v5.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

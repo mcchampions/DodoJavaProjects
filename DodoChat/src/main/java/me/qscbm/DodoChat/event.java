@@ -12,10 +12,6 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class event implements Listener {
-    OkHttpClient wss=new OkHttpClient.Builder()
-            .pingInterval(30, TimeUnit.SECONDS) //保活心跳
-            .build();
-    WebSocket mWebSocket;
     @EventHandler
     public void PlayerJoin(PlayerLoginEvent event) throws IOException {
         String message = config.getConfig().getString("settings.JoinMessage.format");

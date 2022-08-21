@@ -2,6 +2,7 @@ package me.qscbm.DodoChat;
 
 import com.alibaba.fastjson.JSONObject;
 
+import io.github.mcchampions.DodoOpenJava.Event.EventManage;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Plugin;
 
@@ -53,36 +54,14 @@ public final class DodoChat extends Plugin {
         EnableJoinMessage = config.getConfig().getBoolean("settings.JoinMessage.Enable");
         EnableLeaveMessage = config.getConfig().getBoolean("settings.LeaveMessage.Enable");
         if (EnableDodoMessage) {
-            Request requestc = new Request.Builder().url("https://botopen.imdodo.com/api/v1/websocket/connection").addHeader("Content-Type", "application/json").addHeader("Authorization", Authorization)
-                    .post(RequestBody.create(MediaType.parse("application/json"), "{}"))
-                    .build();
-
-            okHttpClient.newCall(requestc).enqueue(new Callback() {
-                @Override
-                public void onFailure(Call call, IOException e) {
-
-                }
-
-                @Override
-                public void onResponse(Call call, Response response) throws IOException {
-                    wssLo=JSONObject.parseObject(response.body().string()).getJSONObject("data").getString("endpoint");
-                    //TODO 建立wss链接
-                    //getLogger().info(wssLo);
-                    response.close();
-                    Request request = new Request.Builder()
-                            .url(wssLo).build();
-                    mWebSocket = wss.newWebSocket(request, new sendMessage(p));//TODO 这里是处理wss发来的数据
-                }
-            });
+            EventManage e = new EventManage();
+            e.register(new sendMessage(),Authorization);
         }
     }
 
     @Override
     public void onDisable() {
         getLogger().info("DodoChat已卸载");
-        if (EnableDodoMessage) {
-            mWebSocket.close(1000, "");
-        }
     }
 
 
